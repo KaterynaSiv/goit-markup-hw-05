@@ -516,7 +516,14 @@ input {
   border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: transparent;
+  width: 264px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
   color: #fff;
+  padding-left: 16px;
 }
 
 input::placeholder {
@@ -524,7 +531,7 @@ input::placeholder {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  color: #fff;
+  color: #ffffff;
   padding: 8px 16px;
   text-align: left;
 }
@@ -543,7 +550,7 @@ input::placeholder {
   border: none;
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   background: #4d5ae5;
   font-weight: 500;
@@ -552,10 +559,13 @@ input::placeholder {
   letter-spacing: 0.04em;
   text-align: center;
   color: #fff;
+  cursor: pointer;
 }
 
 .footer-button-icon {
   fill: #fff;
+  margin-left: 16px;
+  height: 24px;
 }
 
 /* #endregion */
