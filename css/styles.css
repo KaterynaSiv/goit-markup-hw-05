@@ -579,7 +579,6 @@ input::placeholder {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 72px 24px 24px 24px;
   background-color: rgba(46, 47, 66, 0.4);
   opacity: 0;
   visibility: hidden;
@@ -594,7 +593,7 @@ input::placeholder {
   pointer-events: initial;
 }
 
-.modal {
+.modal {padding: 72px 24px 24px 24px;
   position: relative;
   position: absolute;
   top: 50%;
@@ -650,7 +649,6 @@ input::placeholder {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-top: 72px;
   margin-bottom: 16px;
 }
 
@@ -662,7 +660,6 @@ input::placeholder {
   border-radius: 4px;
   width: 360px;
   min-height: 58px;
-  margin: 0px 24px;
 }
 
 .modal-form-field {
